@@ -1,20 +1,19 @@
-# Common Programming Concepts
+# Conceitos comuns de Programacao
 
-This chapter covers concepts that appear in almost every programming language
-and how they work in Rust. Many programming languages have much in common at
-their core. None of the concepts presented in this chapter are unique to Rust,
-but we’ll discuss them in the context of Rust and explain their conventions.
+Este capítulo cobre os conceitos que aparecem em quase toda linguagem de programacao
+e como eles funcionam em Rust. Muitas linguagens de programacao possuem conceitos fundamentais em comum em seu _core_. Nenhum dos conceitos apresentados nesse capítulo sao únicos de Rust,
+mas iremos discuti-los no contexto de Rust e explicar suas convencoes.
 
-Specifically, you’ll learn about variables, basic types, functions, comments,
-and control flow. These foundations will be in every Rust program, and learning
-them early will give you a strong core to start from.
+Especificamente, você irá aprender sobre variáveis, tipos básicos, funcoes, comentários
+e estruturas de controle. Estes fundamentos estao em cada programa Rust, e aprende-los 
+desde o início lhe dará uma boa base de onde comecar.
 
 > ### Keywords
 >
-> The Rust language has a set of *keywords* that have been reserved for use by
-> the language only, much like other languages do. Keep in mind that you cannot
-> use these words as names of variables or functions. Most of the keywords have
-> special meanings, and you’ll be using them to do various tasks in your Rust
-> programs; a few have no current functionality associated with them but have
-> been reserved for functionality that might be added to Rust in the future. You
-> can find a list of the keywords in Appendix A.
+> A linguagem Rust possui um conjunto de *keywords* que sao reservadas apenas para
+> o uso da linguagem, muito parecido com outras linguagens. Tenha em mente que, você nao pode
+> usar essas palavras como nomes de variáveis ou funcoes. A maioria das keywords possuem
+> significados especiais, e você poderá usa-las para realizar várias tarefas em seus  
+> programas Rust; a few have no current functionality associated with them but have
+> been reserved for functionality that might be added to Rust in the future. Você
+> pode encontrar uma lista de keywords no Apêndice A.
